@@ -9,7 +9,6 @@ header {
 .main-header {
     text-decoration: None;
     color: rgb(32, 16, 12);
-    display: block;
     display: flex;
     justify-content: space-between;
 }
@@ -88,4 +87,23 @@ p.usui {
 }
 .abouts p {
     color: rgb(32, 16, 12);
+}
+
+@media all and (max-width:900px) {
+    .main-header {
+        flex-direction: column;
+        text-decoration: None;
+        color: rgb(32, 16, 12);
+    }
+    
+    .main-nav{
+        justify-content: center;
+    }
+
+    .main-header a{
+        text-align: center;
+    }
+    .main-nav li {
+        margin: 0 auto;
+    }
 }
