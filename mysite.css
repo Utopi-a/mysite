@@ -2,6 +2,7 @@
 html {
     font-size: 100%;
     background-color: rgb(255, 231, 255);
+    overflow-y: scroll;
 }
 header {
 }
@@ -37,12 +38,13 @@ body{
 
 .wrapper {
     max-width: 1500px;
-    margin: 0 auto;
+    margin: 0 4%;
     padding: 0 4%;
 }
 footer {
     text-align: center;
     padding: 30px 0;
+    margin: 20vh;
 }
 footer p {
     color: rgb(32, 16, 12);
@@ -51,4 +53,39 @@ footer p {
 .main-name {
     text-align: center;
     margin-top: 30px;
+}
+.icons ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+.icons img {
+    width: 30px;
+    height: 30px;
+    margin: 50px 20px 20px 20px;
+}
+
+p.usui {
+    color: rgba(32, 16, 12, .7);
+    text-align: center;
+}
+
+.wrapper2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.abouts{
+    list-style: none;
+}
+.abouts h3{
+    text-align: center;
+    border-bottom: 2px solid rgba(32, 16, 12, .125);
+    margin: 30px auto 30px auto;
+    color: rgb(32, 16, 12);
+}
+.abouts p {
+    color: rgb(32, 16, 12);
 }
