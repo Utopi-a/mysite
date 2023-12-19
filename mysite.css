@@ -42,8 +42,7 @@ body{
 }
 footer {
     text-align: center;
-    padding: 30px 0;
-    margin: 20vh;
+    margin: 25vh auto;
 }
 footer p {
     color: rgb(32, 16, 12);
